@@ -1,0 +1,8 @@
+n = str(input('Qual seu nome?'))
+nm = n.upper()
+nmn = n.lower()
+se = len(n.replace(" ", ""))
+pnm = n.split()
+print(f'Seu nome em maiúscula fica: {nm} \n Seu nome. minúscula fica: {nmn}')
+print(f'Seu nome tem: {se} letras')
+print(f'O seu primeiro nome é: {pnm[0]}')

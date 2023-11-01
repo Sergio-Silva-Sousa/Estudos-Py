@@ -1,0 +1,6 @@
+n = str(input('Digite um nome de uma cidade: ')).strip().split()
+j = " ".join(n)
+r = 'santos'  in j.lower().replace('santo', 'santos')
+r2 = str(r)
+r3= r2.replace('True', 'tem').replace('False', 'não tem')
+print(f"A cidade {j.title()} {r3} o nome Santos/Santo nela")
