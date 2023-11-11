@@ -1,2 +1,5 @@
-num = int(input("Digite um número: "))
-print(f'Analisando seu número,: \n Seu dobro é {num * 2} \n Seu triplo é {num * 3} \n Seu radical é {int(num ** (1/2))}')
+num = int(input("\033[34;1mDigite um número:\033[33;1m "))
+print(f'\033[32;1mSeu dobro: \033[36;1m{num * 2}')
+print(f'\033[32;1mSeu triplo: \033[36;1m{num * 3}')
+print(f'\033[32;1mSeu Radical: \033[36;1m{num ** 0.5:.2f}\033[m')
+print(f'\033[32;1mEm racional: \033[36;1m {num}/1')
