@@ -20,7 +20,7 @@ if me >= mn:
     sleep(2)
     print('\033[32;1mAPROVADO\033[m')
 else:
-    print(f'\033[33;1mSua média foi \033[36;1m{me:.f}')
+    print(f'\033[33;1mSua média foi \033[36;1m{me:.2f}')
     sleep(1)
     print('\033[33;1mVocê foi ...\033[m')
     sleep(2)
